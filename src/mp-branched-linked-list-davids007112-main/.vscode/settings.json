@@ -1,0 +1,24 @@
+{
+  "clang-format.fallbackStyle": "Google",
+  "editor.formatOnSave": true,
+  "clang-tidy.lintOnSave": true,
+  "clang-tidy.blacklist": [
+    "lib/*"
+  ],
+  "clang-tidy.compilerArgs": [],
+  "clang-tidy.compilerArgsBefore": [
+    "-Iincludes",
+    "-Ilib"
+  ],
+  "C_Cpp.clang_format_sortIncludes": false,
+  "C_Cpp.formatting": "Disabled",
+  "C_Cpp.inactiveRegionOpacity": null,
+  "files.exclude": {
+    "**/.*": true,
+    "lib/*.cc": true
+  },
+  "files.associations": {
+    "new": "cpp",
+    "stdexcept": "cpp"
+  }
+}

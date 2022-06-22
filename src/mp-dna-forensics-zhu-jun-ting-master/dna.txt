@@ -1,0 +1,3 @@
+AAAABBCCDDDEEEE -> Michael
+
+/home/vagrant/src/mp-dna-forensics-zhu-jun-ting-master/names.dat AAAABBCCDDDEEEE

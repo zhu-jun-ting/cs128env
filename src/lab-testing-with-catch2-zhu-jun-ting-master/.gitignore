@@ -1,0 +1,3 @@
+*.o
+!obj/sandwich.o
+bin/*

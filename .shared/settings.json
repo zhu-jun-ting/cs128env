@@ -1,0 +1,17 @@
+{
+    "clang-format.fallbackStyle": "Google",
+    "editor.formatOnSave": true,
+    "clang-tidy.lintOnSave": true,
+    "clang-tidy.blacklist": [],
+    "clang-tidy.compilerArgs": [],
+    "clang-tidy.compilerArgsBefore": [
+        "-Iincludes",
+        "-Wunused-variable"
+    ],
+    "C_Cpp.clang_format_sortIncludes": false,
+    "C_Cpp.formatting": "Disabled",
+    "C_Cpp.inactiveRegionOpacity": null,
+    "files.exclude": {
+        "**/.*": true
+    }
+}

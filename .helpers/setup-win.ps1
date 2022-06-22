@@ -1,0 +1,2 @@
+$cs128env_dir=Convert-Path ../
+docker run -d -v "${cs128env_dir}\src:/home/vagrant/src" -v "${cs128env_dir}\.shared:/home/vagrant/.shared" -p 2222:22 --security-opt seccomp=unconfined --name cs128env michaelrnowak/cpp-dev-env:latest
